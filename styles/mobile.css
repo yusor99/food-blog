@@ -83,7 +83,13 @@
     max-width: 90%;
   }
   .card {
-    flex: 40%;
+    flex: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .card img{
+    margin-bottom: 0px;
   }
   .head .des {
     justify-content: center;
