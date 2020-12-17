@@ -23,10 +23,10 @@ const Home = () => {
             A blog for people who like simple food
           </h1>
 
-          <small>
+          <span style={{ lineHeight: 2, fontSize: 19,fontWeight:200 }}>
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
             <br /> nonumy eirmod tempor invidunt ut labore et dolore
-          </small>
+          </span>
           <button className="btn-see">See popular recipes</button>
         </section>
         <Cards />
@@ -34,11 +34,11 @@ const Home = () => {
           <div className="container content">
             <div>
               <h3>Subscribe to the best food newsletter</h3>
-              <small>
+              <span style={{fontWeight:300}}>
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
                 diam
                 <br /> nonumy eirmod tempor invidunt ut labore et dolore
-              </small>
+              </span>
             </div>
             <button>Add my email to the list</button>
           </div>
@@ -69,7 +69,6 @@ const Home = () => {
           <div>Copyright @ Simple Food 2020</div>
           <div>Instagram / Facebook / Pinterest</div>
         </section>
-        <Test />
       </html>
     </>
   );
