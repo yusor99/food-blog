@@ -7,7 +7,7 @@ const Home = () => {
       <html lang="en">
         <head>
           <meta name="Description" content="landing" />
-          <title>20-week training schedule for your first marathon</title>
+          <title>food-blog</title>
         </head>
         <Desktop />
         <Mobile />
@@ -45,7 +45,8 @@ const Home = () => {
         </section>
         <section className=" container aside">
           <section>
-            <img src="img/About.png" alt="featured"></img>
+            <img src="https://i.ibb.co/2WzqwtF/About.png
+" alt="featured"></img>
           </section>
           <section className="head">
             <p className="des">Hi, I’m Laura!</p>
